@@ -1,2 +1,106 @@
-# ernott-barista
-Página web de muestra
+# Página web de muestra de puro HTML
+
+Este repositorio muestra los conceptos básicos de html llevados a la práctica.
+
+## Muestra del index:
+
+<!DOCTYPE html>
+  <html lang="es">
+    <head>
+      <!-- Título para el navegador y los buscadores -->
+      <title>Curso Barista</title>
+
+      <!-- Descripción de la página para los buscadores -->
+      <meta
+        name="description"
+        content="Página de ejemplos vistos en la clases de HTML de ConquerBlocks"
+      />
+
+      <!-- Palabras clave para los buscadores -->
+      <meta name="keywords" content="cafe, coder, coffee, html, css, js" />
+
+      <!-- Autor de la página -->
+      <meta name="author" content="Ernott" />
+
+      <!-- Favicon de la página -->
+      <link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+      <!-- Codificación-->
+      <meta charset="UTF-8" />
+
+      <!-- Para que la web sea responsive -->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+      <!-- Para algunos navegadores móviles -->
+      <meta name="theme-color" content="#1e7bbf" />
+    </head>
+
+    <body>
+      <header>
+        <h1>Cursos de Barismo</h1>
+      </header>
+      <hr>
+      <nav>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="./html/quienes-somos.html">Quienes somos</a></li>
+          <li><a href="./html/cursos.html">Cursos</a></li>
+          <li><a href="./html/blog.html">Blog</a></li>
+          <li><a href="./html/registro.html">Registro</a></li>
+          <li><a href="./html/iniciar-sesion.html">Iniciar Sesión</a></li>
+          <li><a href="./html/contacto.html">Contacto</a></li>
+        </ul>
+        <hr>
+    <main>
+        <section id="inicio">
+          <h2>Bienvenido a nuestro curso de Barismo</h2>
+          <p>
+            Aprende todo sobre <strong>El Arte del Café</strong>, desde la selección de granos
+            hasta la preparación de bebidas exquisitas.
+          </p>
+        </section>
+
+        <section id="quienes-somos">
+          <img src="https://scontent.fmar2-1.fna.fbcdn.net/v/t1.6435-9/165879348_3995010533896000_4920254559209533887_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_ohc=UTWxf72TFXgQ7kNvwELwMFB&_nc_oc=AdnatKIds7xJCyYu4GbGZRKICIryQhe33A5IoV120-L5EAz6hCiNyIOx1GfZ6ojhL0I&_nc_zt=23&_nc_ht=scontent.fmar2-1.fna&_nc_gid=ZKhBN95mw4unyg-b1QV_Bw&oh=00_AfI5wnUxirDwUsr9RzoZKkoOVCQpFdp6iI_Mast7gaeP3w&oe=685D8AF8" alt="coffee" width="400" height="350">
+          <h2>¿Quiénes somos?</h2>
+          <p>
+            Somos un equipo apasionado por el <em>café y la enseñanza</em>. Nuestro
+            objetivo es compartir nuestros conocimientos y habilidades con
+            aquellos que desean convertirse en expertos baristas.
+          </p>
+        </section>
+
+        <section id="cursos">
+          <h2>Cursos disponibles</h2>
+          <ol>
+            <li>Curso básico de Barismo</li>
+            <li>Curso de Latte Art</a></li>
+          </ol>
+          <p>
+            Nuestros cursos están diseñados para todos los niveles, desde <strong>principiantes</strong>
+            hasta <strong>baristas avanzados</strong>. Aprenderás técnicas de preparación, historia del café,
+            y mucho más.<a href="cursos.html">Click aquí para ver más</a>
+        </section>
+
+        <section id="blog">
+          <h2>Blog</h2>
+          <p>Visita nuestro blog para leer artículos interesantes sobre café.</p>
+            <ul>
+            <li><a href="blog.html">Nuestra Bienvenida al público</a></li>
+            <li><a href="#cursos">¿Qué hace un buen Café?</a></li>
+          </ul>
+        </section>
+
+        <section id="contacto">
+          <h2>Contacto</h2>
+          <p>Puedes contactarnos a través de nuestro correo electrónico o redes sociales.</p>
+        </section>
+      </main>
+      <hr>
+      <!-- Pie de página -->
+      <footer>
+        © 2025 - Todos los derechos reservados
+      </footer>
+    </body>
+
+  </html>

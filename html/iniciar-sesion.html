@@ -37,52 +37,37 @@
       <hr>
       <nav>
         <ul>
-          <li><a href="index.html">Inicio</a></li>
+          <li><a href="../index.html">Inicio</a></li>
           <li><a href="quienes-somos.html">Quienes somos</a></li>
           <li><a href="cursos.html">Cursos</a></li>
-          <li><a href="#blog">Blog</a></li>
+          <li><a href="blog.html">Blog</a></li>
           <li><a href="registro.html">Registro</a></li>
-          <li><a href="iniciar-sesion.html">Iniciar Sesión</a></li>
+          <li><a href="#sesion">Iniciar Sesión</a></li>
           <li><a href="contacto.html">Contacto</a></li>
         </ul>
         <hr>
     <main>
+        <section id="sesion">
+          <h2>Usuario</h2>
+        <form action="" method="get">
+          <fieldset>
+            <legend>Ingrese datos</legend>
+            <label for="usuario">Usuario:</label>
+            <input type="text" id="usuario" name="usuario" maxlength="15" minlength="4" required><br>
 
-        <section id="blog">
-          <h2>Blog</h2>
-          <p>
-            Te damos la bienvenida a nuestro blogs sobre<strong>nuestro café.</strong> En nuestro blog, encontrarás artículos sobre la historia del café, 
-              consejos para preparar la taza perfecta y mucho más. 
-              ¡Esperamos que disfrutes de tu visita!
-          </p>
-          <ul>
-            <li><a href="#publico">Nuestra bienvenida al público</a></li>
-            <li><a href="#buen-cafe">¿Qué hace un buen Café?</a></li>
-          </ul>
-          <article id="publico">
-            <h3>Nuestra bienvenida al público</h3>
-            <p>
-              Nos complace anunciar que hemos abierto nuestras puertas al público. 
-              Nuestro equipo de expertos docentes están listos para ofrecerte una experiencia única con cada taza de café.
-            </p>
-          </article>
+            <label for="contrasena">Contraseña:</label>
+            <input type="password" id="contrasena" name="contrasena" maxlength="20" minlength="6" required><br>
 
-          <article id="buen-cafe">
-            <h3>¿Qué hace un buen Café?</h3>
-            <p>
-              Un buen café comienza con granos de alta calidad, 
-              seguidos por un proceso de tostado adecuado y una preparación cuidadosa. 
-              La atención al detalle en cada paso es lo que marca la diferencia en el sabor final.
-            </p>
-          </article>
+            <button type="submit">Iniciar Sesión</button>
+          </fieldset>          
         </section>
 
+        </form>
+       
       </main>
-    <hr>
       <!-- Pie de página -->
       <footer>
         © 2025 - Todos los derechos reservados
       </footer>
     </body>
   </html>
-
